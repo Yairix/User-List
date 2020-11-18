@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+}
+div hr {
+    background-color: white;
+    border: none;
+    height: 2px;
+    width: 385px;
+}
+.list {
+    background-color: white;
+    height: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+p {
+    color: orange;
+    text-align: left;
+    width: 370px;
+    margin: auto;
+}
+
+@media (min-width: 320px) and (max-width: 380px) {
+    p {
+        width: 310px;
+    }
+    div hr {
+        width: 320px;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
